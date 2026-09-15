@@ -9,7 +9,7 @@ proxies:
   port: 8443
   udp: true
   type: vless
-  uuid: 36d8ee9f-f14d-4de6-bcf3-39522a09e206
+  uuid: 2202f333-f8d6-4e13-a6c7-0b437e42f5e3
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -27,7 +27,7 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: srv-21bac9.vless.monster
+  server: 31.56.189.27
   port: 2087
   udp: true
   type: vless
@@ -35,6 +35,7 @@ proxies:
   tls: true
   servername: srv-21bac9.vless.monster
   skip-cert-verify: false
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: freegrpc

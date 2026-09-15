@@ -8,7 +8,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "36d8ee9f-f14d-4de6-bcf3-39522a09e206",
+      "uuid": "2202f333-f8d6-4e13-a6c7-0b437e42f5e3",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -43,7 +43,7 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-      "server": "srv-21bac9.vless.monster",
+      "server": "31.56.189.27",
       "server_port": 2087,
       "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
       "tls": {
@@ -52,7 +52,11 @@
         "insecure": false,
         "alpn": [
           "h2"
-        ]
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       },
       "transport": {
         "type": "grpc",
