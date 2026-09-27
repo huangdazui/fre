@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.67.149.248",
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+      "server": "cf.877774.xyz",
       "server_port": 443,
-      "uuid": "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba",
+      "uuid": "97532b08-357e-4140-a6f0-8e07f2ed3327",
       "tls": {
         "enabled": true,
-        "server_name": "IMg-edGE-M16-3.HUAngsHANg.pP.UA",
+        "server_name": "yf.962456.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/JRr6VGcSLFc034DC6sDbwyWJLbB",
+        "path": "/proxyip=kr.william.us.ci",
         "headers": {
-          "Host": "IMG-edGe-m16-3.hUAnGSHANg.PP.uA"
+          "Host": "yf.962456.xyz"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
