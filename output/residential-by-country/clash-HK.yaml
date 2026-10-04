@@ -11,7 +11,7 @@ proxies:
   type: hysteria2
   password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
   sni: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com
-  skip-cert-verify: true
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select

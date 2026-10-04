@@ -12,7 +12,7 @@
       "tls": {
         "enabled": true,
         "server_name": "2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com",
-        "insecure": true
+        "insecure": false
       }
     },
     {
