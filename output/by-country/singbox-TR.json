@@ -4,16 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "206.1.102.64",
-      "server_port": 8080,
-      "uuid": "184a0393-5c9e-403c-9be6-427b066308e1",
-      "security": "auto"
-    },
-    {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "server": "78.135.73.47",
       "server_port": 443,
       "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
@@ -34,7 +26,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
       "server": "151.241.226.201",
       "server_port": 2053,
       "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
@@ -53,46 +45,15 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-      "server": "45.133.151.176",
-      "server_port": 25375,
-      "uuid": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PdiXtqIEtNpVRKgB1WCKnmIOC7yJ-VR4uUe1uYjcqXM",
-          "short_id": "8e2a0cd6de5dc50a"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "05195f917c82"
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
-      "server": "188.114.98.0",
-      "server_port": 443,
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "server": "104.21.48.18",
+      "server_port": 2053,
       "password": "e309e031-991e-4656-9934-44d10deb8fd8",
       "tls": {
         "enabled": true,
         "server_name": "nimm.mpd.cc.cd",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "ws",
@@ -103,6 +64,13 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "server": "test.keoplentuio.xyz",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -110,8 +78,7 @@
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 05 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
       ]
     },
     {
@@ -121,8 +88,7 @@
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 05 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
